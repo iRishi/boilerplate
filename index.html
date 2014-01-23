@@ -35,7 +35,15 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.2.min.js">
+        </script>
+        <style type="text/css">
+ 		
+ 		#center {
+          text-align: center;
+        }
+        
+        </style>
     </head>
     <body>
 
@@ -51,6 +59,15 @@
             g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
             s.parentNode.insertBefore(g,s)}(document,"script"));
         </script>
-        <p>hello world!</p>
+        
+      <div id="center">
+      <p>Welcome to my first app!</p>
+        <video width="640" height="360" controls>
+  <source src="http://www.html5rocks.com/en/tutorials/video/basics/devstories.mp4" type="video/mp4">
+  <source src="http://www.html5rocks.com/en/tutorials/video/basics/devstories.webm" type="video/webm">
+ <track src="http://www.html5rocks.com/en/tutorials/video/basics/devstories-en.vtt" label="English subtitles" kind="subtitles" srclang="en" default=""></track>
+ Your browser does not support the video tag.
+</video>
+</div>
     </body>
 </html>
